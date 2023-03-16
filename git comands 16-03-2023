@@ -1,0 +1,40 @@
+git config --global user.name "devopscsm66"
+git config --global user.email "devops66@gmail.com"
+mkdir project1
+cd project1
+git init
+git status
+git add reg.html 
+git status
+git rm --cached reg.html 
+git status
+git add reg.html 
+git status
+gedit index.html
+git status
+git commit  -m " First commit registration page -v1"
+git log
+git add index.html
+gedit bluestyles.css
+gedit  index.html
+git status --short
+git commit -a -m "Updated index.html with a new line"
+git log
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
